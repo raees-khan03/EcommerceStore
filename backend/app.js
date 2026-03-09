@@ -4,7 +4,7 @@ import "dotenv/config";
 import serverless from "serverless-http";
 
 import connectDb from "../config/mongodb.js";
-import connectCloudinary from "../config/cloudinary.js";
+import connectCloudinary from "./config/cloudinary.js";
 import userRouter from "../routes/userRouter.js";
 import productRouter from "../routes/ProductRouter.js";
 import cartRouter from "../routes/cartRouter.js";
@@ -27,5 +27,5 @@ app.get("/", (req, res) => {
   res.send("API is working on Vercel!");
 });
 
+// Export serverless handler
 export const handler = serverless(app);
-export default app;
