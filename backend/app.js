@@ -27,5 +27,5 @@ app.get("/", (req, res) => {
   res.send("API is working on Vercel!");
 });
 
-// Export serverless handler
 export const handler = serverless(app);
+export default app;
