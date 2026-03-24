@@ -55,6 +55,7 @@ import p_img51 from "./p_img51.png";
 import p_img52 from "./p_img52.png";
 
 import logo from "./logo-1.png";
+import mainImage from "./mainImage.jpg";
 import hero_img from "./hero_img.png";
 import cart_icon from "./cart_icon.png";
 import bin_icon from "./bin_icon.png";
@@ -92,6 +93,7 @@ export const assets = {
   razorpay_logo,
   stripe_logo,
   cross_icon,
+  mainImage
 };
 
 export const products = [

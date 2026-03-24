@@ -31,7 +31,7 @@ const Hero = () => {
       {/* Hero Image */}
       <div className="w-full sm:w-1/2 order-1 sm:order-2">
         <img
-          src={assets.hero_img}
+          src={assets.mainImage}
           alt="Latest Arrivals"
           className="w-full h-64 sm:h-full object-cover object-top"
         />
